@@ -3,7 +3,7 @@
   "web3Config": "http://localhost:8545",
   "listenPort": "8081",
   "startBlockNumber": "477365",
-  "endBlockNumber": "478000",
+  "endBlockNumber": "999999",
   "yesContractAddress": "0x189bcc827b8fe2584a520b8d5c1fdf5de04239bf",
   "noContractAddress": "0xdb438843126dc08497e0f3f2e0777201bbdb9124",
   "blackList": {
