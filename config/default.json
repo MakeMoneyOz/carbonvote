@@ -1,11 +1,11 @@
 {
   "dbConfig": "redis://localhost:6379/1",
   "web3Config": "http://localhost:8545",
-  "listenPort": "8080",
-  "startBlockNumber": "476470",
-  "endBlockNumber": "476480",
-  "yesContractAddress": "0x5d46a2fa19036685bfcc26b1c5cd304c4e2011135193c2a3d1fd4cdf4998dbf3",
-  "noContractAddress": "0x5d46a2fa19036685bfcc26b1c5cd304c4e2011135193c2a3d1fd4cdf4998dbf3",
+  "listenPort": "8081",
+  "startBlockNumber": "477365",
+  "endBlockNumber": "478000",
+  "yesContractAddress": "0x189bcc827b8fe2584a520b8d5c1fdf5de04239bf",
+  "noContractAddress": "0xdb438843126dc08497e0f3f2e0777201bbdb9124",
   "blackList": {
     "Yunbi": "0xd94c9ff168dc6aebf9b6cc86deff54f3fb0afc33",
     "Kraken": "0x2910543af39aba0cd09dbb2d50200b3e800a63d2",
