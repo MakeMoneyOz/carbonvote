@@ -41,8 +41,8 @@
     </div>
 
     <div class="address">
-      <p class="yes"><strong>Vote YES:</strong> <a class="" target="_blank" href="http://104.207.152.17:8000/#/address/<%= yesContractAddress %>"><code><%= yesContractAddress %></code></a></p>
-      <p class="no"><strong>Vote NO:</strong> <a class="" target="_blank" href="http://104.207.152.17:8000/#/address/<%= noContractAddress %>"><code><%= noContractAddress %></code></a></p>
+      <p class="yes"><strong>Vote YES:</strong> <a class="" target="_blank" href="https://explorer.ellaism.org/#/address/<%= yesContractAddress %>"><code><%= yesContractAddress %></code></a></p>
+      <p class="no"><strong>Vote NO:</strong> <a class="" target="_blank" href="https://explorer.ellaism.org/#/address/<%= noContractAddress %>"><code><%= noContractAddress %></code></a></p>
     </div>
 
     <div class="status">
@@ -72,7 +72,7 @@
     <nav class="yes">
       <ol>
         <% yesTx.forEach(function(tx) { %>
-        <li><a class="hash" target="_blank" href="http://104.207.152.17:8000/#/tx/<%= tx %>"><%= tx %></a></li>
+        <li><a class="hash" target="_blank" href="https://explorer.ellaism.org/#/tx/<%= tx %>"><%= tx %></a></li>
         <% }); %>
       </ol>
     </nav>
@@ -80,7 +80,7 @@
     <nav class="no">
       <ol>
         <% noTx.forEach(function(tx) { %>
-        <li><a class="hash" target="_blank" href="http://104.207.152.17:8000/#/tx/<%= tx %>"><%= tx %></a></li>
+        <li><a class="hash" target="_blank" href="https://explorer.ellaism.org/#/tx/<%= tx %>"><%= tx %></a></li>
         <% }); %>
       </ol>
     </nav>
@@ -88,11 +88,11 @@
 
   <div class="view-more">
     <% if (yesTx.length) { %>
-    <a class="transactions-more" target="_blank" href="http://104.207.152.17:8000/#/address/<%= yesContractAddress %>">View More</a>
+    <a class="transactions-more" target="_blank" href="https://explorer.ellaism.org/#/address/<%= yesContractAddress %>">View More</a>
     <% } %>
 
     <% if (noTx.length) { %>
-    <a class="transactions-more" target="_blank" href="http://104.207.152.17:8000/#/address/<%= noContractAddress %>">View More</a>
+    <a class="transactions-more" target="_blank" href="https://explorer.ellaism.org/#/address/<%= noContractAddress %>">View More</a>
     <% } %>
   </div>
 
@@ -100,7 +100,7 @@
     <h3 class="title">Accounts filtered (Exchange's withdraw address)</h3>
     <ul>
       <% for (let key of Object.keys(blackList)) { %>
-      <li><%= key %>: <a href="http://104.207.152.17:8000/#/address/<%= blackList[key] %>"><%= blackList[key] %></a></li>
+      <li><%= key %>: <a href="https://explorer.ellaism.org/#/address/<%= blackList[key] %>"><%= blackList[key] %></a></li>
 
       <% } %>
     </ul>
