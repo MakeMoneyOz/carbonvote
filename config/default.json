@@ -7,16 +7,5 @@
   "yesContractAddress": "0x189bcc827b8fe2584a520b8d5c1fdf5de04239bf",
   "noContractAddress": "0xdb438843126dc08497e0f3f2e0777201bbdb9124",
   "blackList": {
-    "Yunbi": "0xd94c9ff168dc6aebf9b6cc86deff54f3fb0afc33",
-    "Kraken": "0x2910543af39aba0cd09dbb2d50200b3e800a63d2",
-    "Poloniex": "0x32be343b94f860124dc4fee278fdcbd38c102d88",
-    "Bitfinex": "0xcafb10ee663f465f9d10588ac44ed20ed608c11e",
-    "BTC-e": "0x91337a300e0361bddb2e377dd4e88ccb7796663d",
-    "BitcoinToYou": "0xf4fe90e63f2a90710bcc0c00f38812c4a882f2ff",
-    "Shapeshift1": "0x120a270bbc009644e35f0bb6ab13f95b8199c4ad",
-    "Shapeshift2": "0x9e6316f44baeeee5d41a1070516cc5fa47baf227",
-    "f2pool": "0x61c808d82a3ac53231750dadc13c777b59310bd9",
-    "DwarfPool1": "0x2a65aca4d5fc5b5c859090a6c34d164135398226",
-    "Gemini": "0xd24400ae8bfebb18ca49be86258a3c749cf46853"
   }
 }
