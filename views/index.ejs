@@ -80,7 +80,7 @@
     <nav class="no">
       <ol>
         <% noTx.forEach(function(tx) { %>
-        <li><a class="hash" target="_blank" href="http://etherscan.io/tx/<%= tx %>"><%= tx %></a></li>
+        <li><a class="hash" target="_blank" href="https://explorer.ellaism.org/tx/<%= tx %>"><%= tx %></a></li>
         <% }); %>
       </ol>
     </nav>
@@ -88,11 +88,11 @@
 
   <div class="view-more">
     <% if (yesTx.length) { %>
-    <a class="transactions-more" target="_blank" href="http://etherscan.io/address/<%= yesContractAddress %>">View More</a>
+    <a class="transactions-more" target="_blank" href="https://explorer.ellaism.org/address/<%= yesContractAddress %>">View More</a>
     <% } %>
 
     <% if (noTx.length) { %>
-    <a class="transactions-more" target="_blank" href="http://etherscan.io/address/<%= noContractAddress %>">View More</a>
+    <a class="transactions-more" target="_blank" href="https://explorer.ellaism.org/address/<%= noContractAddress %>">View More</a>
     <% } %>
   </div>
 
@@ -100,7 +100,7 @@
     <h3 class="title">Accounts filtered (Exchange's withdraw address)</h3>
     <ul>
       <% for (let key of Object.keys(blackList)) { %>
-      <li><%= key %>: <a href="http://etherscan.io/address/<%= blackList[key] %>"><%= blackList[key] %></a></li>
+      <li><%= key %>: <a href="https://explorer.ellaism.org/address/<%= blackList[key] %>"><%= blackList[key] %></a></li>
 
       <% } %>
     </ul>
@@ -130,6 +130,7 @@
       <a href="http://consenlabs.com/">ConsenLabs</a>
       <a href="#">StoneLedger</a>
       <a href="http://cryptape.com/">Cryptape</a>
+      <a href="https://github.com/ellaism-io/">Ellaism</a>
     </nav>
     <p>
     </p>
