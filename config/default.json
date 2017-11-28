@@ -8,5 +8,6 @@
   "noContractAddress": "0xdb438843126dc08497e0f3f2e0777201bbdb9124",
   "blackList": {
     "Stocks.Exchange": "0xd1068ea9c681356a37fd83b59d5e3b311a631ef2",
+    "Stocks.Exchange": "0xf9fdd1d78f106b4e7ede5a0613077fd69d835f88", 
   }
 }
