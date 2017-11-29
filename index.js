@@ -26,7 +26,7 @@ if (process.env.WEB == 'true') {
   web.init()
 }
 
-// Graceful shotdown application
+// Graceful shutdown application
 let gracefulShutdown = function() {
   console.log('Received kill signal, shutting down gracefully.')
 
