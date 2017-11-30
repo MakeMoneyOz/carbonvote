@@ -28,6 +28,7 @@
     <div class="rhythm">
 
 <h1 class="title">Vote: The Ellaism Voting Page!</h1>
+<h2 class="title">Once a vote is ready and announced there will be enough time to make sure everyone can try to vote.</h2>
 
 <img src="https://explorer.ellaism.org/img/explorer-logo.png" alt="logo" class="logo-default">
 
@@ -100,7 +101,7 @@
   </div>
 
   <article class="rhythm" id="">
-    <h3 class="title">Accounts filtered (Exchange's withdraw address)</h3>
+    <h3 class="title">Accounts filtered (Exchange's/Devs/CommunityFund)</h3>
     <ul>
       <% for (let key of Object.keys(blackList)) { %>
       <li><%= key %>: <a href="https://explorer.ellaism.org/addr/<%= blackList[key] %>"><%= blackList[key] %></a></li>
@@ -113,10 +114,6 @@
     <h3 class="title">Further explanation: mechanism of the Carbonvote System</h3>
 
     <p><strong>1. Voters: </strong>ELLA holders.</p>
-
-    <p><strong>2. Ballots: </strong>ELLA. How many ELLA, how many votes.</p>
-    <p><strong>3. How to Vote: </strong>Send ELLA to the YES address to propose or NO address to oppose. And you still have time to change your mind.</p>
-
     <p><strong>2. Ballots: </strong>ELLA. How many ELLA, how many votes.</p>
     <p><strong>3. How to Vote: </strong>Send ELLA to the YES address to propose or NO address to oppose. And you still have time to change your mind.</p>
 
