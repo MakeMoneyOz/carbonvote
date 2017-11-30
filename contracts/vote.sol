@@ -5,7 +5,9 @@ contract Vote {
         LogVote(msg.sender);
 
         if (msg.value > 0) {
-            msg.sender.send(msg.value);
+            if (!msg.sender.send(msg.value)) {
+                throw;
+            }
         }
     }
 }
